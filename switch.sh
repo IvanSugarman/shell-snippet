@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=(common shenghuo shenghuo-common shenghuo-task)
+DIR=()
 BASE="$HOME/browser-fe"
 
 if [ $# -eq 0 ]; then

@@ -84,10 +84,3 @@ nnoremap <silent><F4> :terminal<CR>
 inoremap <silent><F4> <ESC>:terminal<CR>
 
 highlight CursorLine cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
-
-let @f = 'ifunction () {}^w'
-let @w = 'i#!/bin/bash€kr€kr€kr€ku€kd@ww@w€ku€ku€kdW'
-" autocmd TextChanged,TextChangedI <buffer> silent write
-
-source $HOME/browser-fe/shenghuo-common/dotfiles/vimrc
-
